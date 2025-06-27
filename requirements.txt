@@ -1,0 +1,5 @@
+langchain
+sentence-transformers
+pgvector
+psycopg2-binary
+openai
