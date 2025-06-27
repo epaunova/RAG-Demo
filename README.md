@@ -10,6 +10,11 @@ Minimal, end-to-end example that shows how to:
 5. Capture latency & cost metrics
 
 The notebook is designed as a **take-home / interview demo**: reviewers can run it in < 10 min locally or in Colab.
+---
+
+## One-click Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/epaunova/RAG-Demo/blob/main/rag_demo_full.ipynb)
 
 ---
 
