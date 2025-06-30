@@ -1,13 +1,35 @@
 # Retrieval-Augmented Generation (RAG) Quick-Start Demo
 
 **Author – Eva Paunova • June 2025**  
-Minimal, end-to-end example that shows how to:
+RAG-Demo
+A minimal, end-to-end example of a Retrieval-Augmented Generation (RAG) pipeline using Python, LangChain, OpenAI, and pgvector. It shows how to ingest unstructured documents, index them for semantic search, and answer user queries by combining retrieved context with an LLM.
 
-1. Ingest unstructured docs  
-2. Chunk and embed them with **Hugging Face**  
-3. Store vectors in **pgvector** (PostgreSQL)  
-4. Query via **LangChain RetrievalQA**  
-5. Capture latency & cost metrics---
+Features
+Document Ingestion
+
+Load PDF and HTML files from data/
+
+Split them into manageable “chunks” for embedding
+
+Vector Indexing
+
+Generate embeddings via a Hugging Face model
+
+Store and query embeddings in PostgreSQL with pgvector
+
+RetrievalQA
+
+Use LangChain’s RetrievalQA to fetch top-k relevant chunks
+
+Append retrieved text to the LLM prompt for accurate answers
+
+Performance Metrics
+
+Measure per-query latency and cost
+
+Log timings and token usage in a results table
+
+
 
 ## One-click Colab
 
