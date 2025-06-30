@@ -7,10 +7,7 @@ Minimal, end-to-end example that shows how to:
 2. Chunk and embed them with **Hugging Face**  
 3. Store vectors in **pgvector** (PostgreSQL)  
 4. Query via **LangChain RetrievalQA**  
-5. Capture latency & cost metrics
-
-The notebook is designed as a **take-home / interview demo**: reviewers can run it in < 10 min locally or in Colab.
----
+5. Capture latency & cost metrics---
 
 ## One-click Colab
 
